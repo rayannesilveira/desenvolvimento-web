@@ -6,10 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aula 05</title>
+
+  <link href="css/styles.css" rel="stylesheet">
+
 </head>
 
 <body>
-  <div id="cabecalho">
+  <header class="cabecalho">
     <div id="menu">
       <nav>
         <a href="#inicio">Início</a>
@@ -22,68 +25,115 @@
     <div id="barra-pesquisa">
       <input type="text">
     </div>
-
-  </div>
+  </header>
 
   <section id="inicio">
-    <img src="images/logo.png" width="200px" alt="Logo do html 5">
+    <div class="col">
+      <img src="images/logo.png" width="400px" alt="Logo do html 5">
+    </div>
+    <div class="col">
+      <div class="center-text">
+        <h1>Texto de Destaque</h1>
 
-    <h1>Texto de Destaque</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores eos nihil! Accusantium explicabo id
+          omnis
+          culpa dolores natus ea sunt harum sapiente obcaecati. Numquam autem ea delectus unde eaque?</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores eos nihil! Accusantium explicabo id omnis
-      culpa dolores natus ea sunt harum sapiente obcaecati. Numquam autem ea delectus unde eaque?</p>
-
-    <input type="button" value="Cadastre-se">
-    <input type="button" value="Saiba mais">
-
+      </div>
+      <div class="button-inicio">
+        <input id="cadastre" type="button" value="Cadastre-se">
+        <input id="saiba-mais" type="button" value="Saiba mais">
+      </div>
+    </div>
   </section>
 
   <section id="sobre-nos">
-    <h1>Sobre nós</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero temporibus eum adipisci itaque deleniti quos
-      consequuntur deserunt eaque nihil numquam perferendis ab laudantium, fuga molestiae suscipit, dignissimos iste.
-      Nam.</p>
 
-    <img src="images/circulo.png" width="150px">
+    <div class="col">
+      <div class="center-text">
+        <h1>Sobre nós</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero temporibus eum adipisci itaque deleniti
+          quos
+          consequuntur deserunt eaque nihil numquam perferendis ab laudantium, fuga molestiae suscipit, dignissimos
+          iste.
+          Nam.</p>
+      </div>
+    </div>
+
+    <div class="col">
+      <img src="images/circulo.png" width="350px">
+    </div>
+
 
   </section>
 
   <section id="equipe">
     <h1>Nossa equipe</h1>
-    <div class="card-equipe">
-      <img src="images/time.jpeg" alt="Foto equipe da empresa" width="150px">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo accusamus numquam nemo fugiat reiciendis
-        architecto ullam veritatis modi molestias eius voluptas sit alias porro, minima nesciunt magnam eligendi. Harum.
-      </p>
 
+    <div class="col">
+      <div class="card-equipe decoration">
+        <img src="images/time.jpeg" alt="Foto equipe da empresa">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo accusamus numquam nemo fugiat reiciendis
+          architecto ullam veritatis modi molestias eius voluptas sit alias porro, minima nesciunt magnam eligendi.
+          Harum.
+        </p>
+      </div>
     </div>
 
-    <div class="card-equipe">
-      <img src="images/time.jpeg" alt="Foto equipe da empresa" width="150px">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo accusamus numquam nemo fugiat reiciendis
-        architecto ullam veritatis modi molestias eius voluptas sit alias porro, minima nesciunt magnam eligendi. Harum.
-      </p>
+    <div class="col">
+      <div class="card-equipe decoration">
+        <img src="images/time.jpeg" alt="Foto equipe da empresa">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo accusamus numquam nemo fugiat reiciendis
+          architecto ullam veritatis modi molestias eius voluptas sit alias porro, minima nesciunt magnam eligendi.
+          Harum.
+        </p>
 
+      </div>
     </div>
 
-    <div class="card-equipe">
-      <img src="https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Foto equipe da empresa" width="150px">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo accusamus numquam nemo fugiat reiciendis
-        architecto ullam veritatis modi molestias eius voluptas sit alias porro, minima nesciunt magnam eligendi. Harum.
-      </p>
+    <div class="col">
+      <div class="card-equipe decoration">
+        <img src="images/time.jpeg" alt="Foto equipe da empresa">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo accusamus numquam nemo fugiat reiciendis
+          architecto ullam veritatis modi molestias eius voluptas sit alias porro, minima nesciunt magnam eligendi.
+          Harum.
+        </p>
 
+      </div>
     </div>
+
+    <div class="col">
+      <div class="card-equipe decoration">
+        <img src="images/time.jpeg" alt="Foto equipe da empresa">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo accusamus numquam nemo fugiat reiciendis
+          architecto ullam veritatis modi molestias eius voluptas sit alias porro, minima nesciunt magnam eligendi.
+          Harum.
+        </p>
+
+      </div>
+    </div>
+
+
   </section>
 
   <section id="contatos">
-    <h1>Contatos</h1>
-    <img src="images/circulo.png" width="150px" alt="Logo do chrome">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur unde a impedit enim veritatis eius ipsum dolorem magni suscipit accusamus accusantium quisquam vel voluptatum obcaecati, nulla aliquam! Ratione, quo vitae.</p>
+    <div class="col">
+      <img src="images/circulo.png" width="350px" alt="Logo do chrome">
+    </div>
+    <div class="col">
+      <div class="center-text">
+        <h1>Contatos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur unde a impedit enim veritatis eius ipsum
+          dolorem
+          magni suscipit accusamus accusantium quisquam vel voluptatum obcaecati, nulla aliquam! Ratione, quo vitae.</p>
+
+      </div>
+    </div>
   </section>
 
-  <div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cum alias praesentium laborum dicta numquam veritatis sit cumque molestiae, incidunt, recusandae porro. Molestiae unde consequatur quaerat fugiat deleniti aperiam facilis?</p>
-  </div>
+  <footer>
+    <p>Desenvolvido por Turma Desenv. Web. UFMA 2022</p>
+  </footer>
 
 </body>
 
